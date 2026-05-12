@@ -41,6 +41,17 @@ McKinney built pandas, so this is as close to the source as it gets for learning
 └── README.md
 ```
 
+## Data
+
+The datasets used in these notebooks come from Wes McKinney's book repository.
+They are not included in this repo (to keep it lightweight).
+
+To set up:
+
+1. Clone McKinney's data repo: `git clone https://github.com/wesm/pydata-book`
+2. Copy the contents of its `datasets/` folder into this repo's `data/` folder
+
+
 ## How I'm working through it
 
 - **One chapter every 1-2 weeks**, alongside other learning (SQL, statistics)
