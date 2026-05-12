@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files — anywhere in the repo, including subfolders
+data/**/*.csv
+data/**/*.xlsx
+data/**/*.parquet
+data/**/*.json
+data/**/*.txt
+data/**/*.h5
+!data/.gitkeep
+!data/**/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
